@@ -339,7 +339,10 @@ class DecisionTreeRegressor(DecisionTree):
     Decision Tree Regressor
     """
     
-    def __init__(self, max_depth: int = None, min_samples_split: int = 2, loss: str = 'mse') -> None:
+    def __init__(
+            self, max_depth: int = None, 
+            min_samples_split: int = 2, 
+            loss: str = 'mse') -> None:
         """
         Initializer
 
